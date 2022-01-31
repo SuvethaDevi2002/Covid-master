@@ -747,12 +747,30 @@ ul.nav li.active a:before {
 	display: inline-block;
 	width: 116px;
 	height: 116px;
-	background-image: -moz-linear-gradient(90deg, #e73131 0%, #e73131 100%);
+	/*background-image: -moz-linear-gradient(90deg, #e73131 0%, #e73131 100%);
 	background-image: -webkit-linear-gradient(90deg, #e73131 0%, #e73131 100%);
-	background-image: -ms-linear-gradient(90deg, #e73131 0%, #e73131 100%);
+	background-image: -ms-linear-gradient(90deg, #e73131 0%, #e73131 100%);*/
+	background-image: url("cross.jpg");
+	background-size: 110px;
 	color: #fff;
 	border-radius: 100px;
-	border: 5px solid #f6f6f6;
+	border: 5px solid #ec0d0dfa;
+}
+.price-duration1{
+	position: relative;
+	margin-top: -63px;
+	top: -10px;
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+	/*background-image: -moz-linear-gradient(90deg, #e73131 0%, #e73131 100%);
+	background-image: -webkit-linear-gradient(90deg, #e73131 0%, #e73131 100%);
+	background-image: -ms-linear-gradient(90deg, #e73131 0%, #e73131 100%);*/
+	background-image: url("tick.jpg");
+	background-size: 110px;
+	color: #fff;
+	border-radius: 100px;
+	border: 5px solid #14ec0dfa;
 }
 #pricing ul.pricing li.plan-header .price-duration {
 	display: block;
